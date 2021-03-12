@@ -1,0 +1,10 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Agtech_Core::agtech_core_menu"
+             title="AgTech"
+             module="Agtech_Core"
+             sortOrder="90"
+             action="adminhtml/system_config/edit/section/agtech_core"
+             resource="Agtech_Core::config" />
+    </menu>
+</config>
